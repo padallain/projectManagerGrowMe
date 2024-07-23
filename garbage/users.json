@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "username": "johndoe@example.com",
+      "password": "securepassword",
+      "profile":"empleado",
+      "module": 1 ,
+      "methods": [1,2],
+      "object":"admin"
+
+    },
+    {
+      "username": "padallain2000@gmail.com",
+      "password": "securepassword",
+      "profile":"gerente",
+      "module": 2 ,
+      "methods": [2,3],
+      "object":"admin"
+    },
+    {
+      "username": "janedoe@example.com",
+      "password": "anothersecurepassword",
+      "profile":"president",
+      "module": 3,
+      "methods": [1,2,3,4,5],
+      "object":"admin"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+.noteNew {
+  margin-bottom: 1rem;
+}
+
+.noteNew textarea {
+  width: 100%;
+  max-width: 100%;
+  height: 100px;
+  max-height: 150px;
+  overflow: hidden;
+}
+
+textarea {
+  border: none;
+  resize: none;
+  background-color: #c3d5f3;
+  border-radius: 15px;
+  text-indent: 12px; /* Sangrar el texto 5px a la derecha */
+}
+textarea:focus{
+    outline: none;
+    
+
+}
+  
+  .noteFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .save {
+    background-color: #e1e1e1;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .save:hover {
+    background-color: #ededed;
+  }
+  
